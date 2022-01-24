@@ -1,27 +1,16 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import BootNav from './components/BootNav';
+import PortfolioBody from './components/PortfolioBody';
 
 function App() {
+
+  const [currPage, setCurrPage] = useState('AboutMe');
+
   return (
     <div className="App">
-      <div className="navbar">
-        <Navbar />
-      </div>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <BootNav currPage={currPage} setCurrPage={setCurrPage} />
+      <PortfolioBody currPage={currPage} setCurrPage={setCurrPage} />
     </div>
   );
 }

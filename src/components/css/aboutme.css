@@ -1,0 +1,38 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+/* 
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.about-me-banner {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.about-me-banner img {
+    flex-shrink: 0;
+    min-width: auto;
+    min-height: 100%;
+    margin-top: 125px;
+}
+
+.about-me-card {
+    background-color: #282c34 !important;
+    border: none !important;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 576px)  {
+    .about-me-banner img {
+        margin-top: 0;
+    }
+}
