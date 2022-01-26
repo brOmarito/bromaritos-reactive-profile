@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 // CSS
 import './css/portbody.css';
@@ -13,6 +14,10 @@ export default function PortfolioBody ({ currPage, setCurrPage }) {
     } else if (currPage === 'portfolio') {
         return <div className='port-body'>
                     <Portfolio currPage={currPage} setCurrPage={setCurrPage} />
+                </div>
+    } else if (currPage === 'resume') {
+        return <div className='port-body'>
+                    <Resume currPage={currPage} setCurrPage={setCurrPage} />
                 </div>
     } else {
         return <div className='port-body'>

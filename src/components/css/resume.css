@@ -1,0 +1,14 @@
+.resume-section {
+    width: 100%;
+    height: 75vh;
+}
+
+iframe {
+    height: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    iframe {
+        height: 71%;
+    }
+}
