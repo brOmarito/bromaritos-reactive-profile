@@ -34,8 +34,60 @@
     text-align: left;
 }
 
+.about-me-left {
+    float: left;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-me-title {
+    padding-top: 1rem;
+}
+
+.about-me-text {
+    float: right;
+    width: 75%;
+}
+
+.about-me-headshot {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 80px;
+    margin-top: -95px;
+}
+
+.about-me-headshot img {
+    flex-shrink: 0;
+    width: auto;
+    height: 230px;
+}
+
+.contact-btn {
+    display: flex !important;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+.contact-btn svg {
+    padding-right: 5px;
+    width: 20px;
+}
+
 @media screen and (max-width: 576px)  {
     .about-me-banner img {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-me-text {
+        padding-top: 2rem;
     }
 }

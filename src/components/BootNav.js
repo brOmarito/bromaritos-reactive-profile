@@ -28,10 +28,10 @@ export default function BootNav({ currPage, setCurrPage }) {
                 <Nav className="me-auto">
                 </Nav>
                 <Nav>
-                    <Nav.Link href="#aboutme" onClick={() => setCurrPage('AboutMe')}>About Me</Nav.Link>
-                    <Nav.Link href="#portfolio" onClick={() => setCurrPage('portfolio')}>Portfolio</Nav.Link>
-                    <Nav.Link href="#resume" onClick={() => setCurrPage('resume')}>Resume</Nav.Link>
-                    <Nav.Link href="#contact" onClick={() => setCurrPage('contact')}>Contact Me</Nav.Link>
+                    <Nav.Link href="#aboutme" onClick={() => setCurrPage('AboutMe')} className={`${currPage === 'AboutMe' ? "active" : ""}`}>About Me</Nav.Link>
+                    <Nav.Link href="#portfolio" onClick={() => setCurrPage('portfolio')} className={`${currPage === 'portfolio' ? "active" : ""}`}>Portfolio</Nav.Link>
+                    <Nav.Link href="#resume" onClick={() => setCurrPage('resume')} className={`${currPage === 'resume' ? "active" : ""}`}>Resume</Nav.Link>
+                    <Nav.Link href="#contact" onClick={() => setCurrPage('contact')} className={`${currPage === 'contact' ? "active" : ""}`}>Contact Me</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>
