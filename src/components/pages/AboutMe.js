@@ -5,10 +5,6 @@ import headshot from '../../images/headshot.jpg';
 import '../css/aboutme.css';
 
 export default function AboutMe ({ currPage, setCurrPage }) {
-    // const goToContactPage = () => {
-    //     location.href='#contact';
-    //     setCurrPage('contact');
-    // }
 
     return <div className='container about-me'>
         <div className="card about-me-card">
@@ -21,12 +17,15 @@ export default function AboutMe ({ currPage, setCurrPage }) {
                         <img src={headshot} className='headshot-img' alt='My Face' />
                     </div>
                     <h5 className="card-title about-me-title">Who is this person?</h5>
+                    {/*
+                    // Contact me button but need to troubleshoot the onClick triggering the navbar switch
                     <a href='#contact' class="btn btn-secondary contact-btn" onClick={() => setCurrPage('contact')}>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
                             <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
                         </svg>
                         Contact Me
                     </a>
+                    */}
                 </div>
                 <p className="card-text about-me-text">
                     Hello, and welcome to my portfolio! My name is Omar Pacheco, AKA brOmarito as I'm sure you noticed. 
