@@ -1,0 +1,19 @@
+footer {
+    background-color: rgb(31 41 55 / 1) !important;
+}
+
+.footer-icon {
+    color: #f8f9fa !important;
+    transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out !important;
+}
+
+.footer-icon:hover,
+.footer-icon:focus {
+    background-color: #f8f9fa !important;
+    color: rgb(31 41 55 / 1) !important;
+}
+
+.footer-icon svg {
+    width: 30px;
+    height: 30px;
+}
