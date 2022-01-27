@@ -1,10 +1,11 @@
 .form-container {
     text-align: left;
-    width: 60%;
+    width: 50%;
 }
 
 .contact-me-content {
     padding-top: 1rem;
+    display: flex;
 }
 
 .text-error {
@@ -13,4 +14,32 @@
 
 .hidden {
     display: none;
+}
+
+.contactme-pic-container {
+    width: 50%;
+}
+
+.contactme-pic-container img {
+    width: inherit;
+}
+
+.contact-btn {
+    background-color: rgb(72, 85, 104) !important;
+    border-color: rgb(48, 58, 71) !important;
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+    border-color: rgb(90, 104, 122) !important;
+}
+
+@media screen and (max-width: 768px) {
+    .contactme-pic-container {
+        display: none;
+    }
+
+    .form-container {
+        width: 100%;
+    }
 }

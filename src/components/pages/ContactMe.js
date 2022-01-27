@@ -3,6 +3,8 @@ import { Form, Button } from 'react-bootstrap';
 import { handleTextCheck, handleEmailCheck } from '../../utils/contactFormHelpers';
 // CSS
 import '../css/contactme.css';
+// img(s)
+import spoderman from '../../images/Me-as-Spoderman-cloud.png';
 
 export default function ContactMe({ currPage, setCurrPage }) {
     const [nameValidated, setNameValidated] = useState(false);
@@ -51,10 +53,13 @@ export default function ContactMe({ currPage, setCurrPage }) {
                         Please enter a value for the message field
                     </Form.Text>
                 </Form.Group>
-                <Button variant="primary" type="submit" disabled={buttonDisabled}>
+                <Button className='contact-btn' type="submit" disabled={buttonDisabled}>
                     Submit
                 </Button>
             </Form>
+        </div>
+        <div className='contactme-pic-container'>
+            <img src={spoderman} alt='Picture of me as Spoderman' />
         </div>
     </div>
 }

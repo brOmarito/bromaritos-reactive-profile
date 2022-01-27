@@ -39,9 +39,10 @@ export default function AboutMe ({ currPage, setCurrPage }) {
                     to find the bathroom. By the time this goes live, I will have probably finished my trip to France so feel free to ask 
                     me how I did with my basic French! I also really enjoy drawing, music (I specifically love diving into lyrics so hip-
                     hop and rap are a must), and playing video games. And last, but certainly not least, I love my dog! Honestly all dogs 
-                    but my little dude is a black standard poodle named BMO and he is awesome. Now, let's dive into that a little bit more! 
-                    (Or not, feel free to navigate away...)
-                    <br></br>
+                    but my little dude is a black standard poodle named BMO and he is awesome!
+                    {/* Now, let's dive into that a little bit more! 
+                    (Or not, feel free to navigate away...) */}
+                    {/* <br></br>
                     <br></br>
                     Let's start with music! As I mentioned before, I really enjoy listening to hip-hop and rap. Artists like Lupe Fiasco, 
                     Amine, Denzel Curry, Old Kanye (Straight from the soul, Kanye), among others. That's not it, though! I'll listen to just 
@@ -51,7 +52,7 @@ export default function AboutMe ({ currPage, setCurrPage }) {
                     <br></br>
                     Last, but not least, I love playing games. I generally stick to single player story-driven games like The Last of Us, 
                     God of War, Guardians of the Galaxy, Red Dead Redemption, and the like but also love others. Some honorable mentions 
-                    are Dead Cells, Stardew Valley, FIFA, and many more.
+                    are Dead Cells, Stardew Valley, FIFA, and many more. */}
                 </p>
             </div>
         </div>
