@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Form, Button } from 'react-bootstrap';
+import { handleTextCheck, handleEmailCheck } from '../../utils/contactFormHelpers';
 // CSS
 import '../css/contactme.css';
 
@@ -14,21 +15,6 @@ export default function ContactMe({ currPage, setCurrPage }) {
         else setButtonDisabled(true);
     }, [nameValidated, emailValidated, messageValidated]);
 
-    const handleTextCheck = (setter, value, textId) => {
-        if (value && value.length > 1) handleFieldSuccess(setter, textId);
-        else handleFieldError(setter, textId);
-    }
-
-    const handleFieldError = (setter, textId) => {
-        setter(false);
-        document.getElementById(textId).classList.remove('hidden');
-    }
-
-    const handleFieldSuccess = (setter, textId) => {
-        setter(true);
-        document.getElementById(textId).classList.add('hidden');
-    }
-
     const handleNameChange = (e) => {
         handleTextCheck(setNameValidated, e.target.value, 'name-error');
     }
@@ -37,12 +23,9 @@ export default function ContactMe({ currPage, setCurrPage }) {
         handleTextCheck(setMessageValidated, e.target.value, 'message-error');
     }
 
-    const handleEmailCheck = (e) => {
-        const reg = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-        if (e.target.value && reg.test(String(e.target.value).toLowerCase())) handleFieldSuccess(setEmailValidated, 'email-error');
-        else handleFieldError(setEmailValidated, 'email-error');
+    const handleEmailChange = (e) => {
+        handleEmailCheck(setEmailValidated, e.target.value, 'email-error');
     }
-    // `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
     return <div className='container contact-me-content'>
         <div className='form-container'>
@@ -56,7 +39,7 @@ export default function ContactMe({ currPage, setCurrPage }) {
                 </Form.Group>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" onChange={handleEmailCheck} />
+                    <Form.Control type="email" placeholder="Enter email" onChange={handleEmailChange} />
                     <Form.Text id='email-error' className="text-error hidden">
                         Please enter a valid email address
                     </Form.Text>
