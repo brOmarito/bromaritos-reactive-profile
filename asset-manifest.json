@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.50999dce.css",
-    "main.js": "/static/js/main.e91af937.js",
-    "static/js/787.2887e336.chunk.js": "/static/js/787.2887e336.chunk.js",
-    "static/media/headshot.jpg": "/static/media/headshot.7096b9ea156292ac589e.jpg",
-    "static/media/Me-as-Spoderman-cloud.png": "/static/media/Me-as-Spoderman-cloud.d0cc41b7092cc63834cf.png",
-    "static/media/spider-logo.png": "/static/media/spider-logo.d5d52713c123fd34598f.png",
-    "static/media/uga-campus.jpg": "/static/media/uga-campus.b1210fb155c92c930cdb.jpg",
-    "static/media/flasher-homepage.png": "/static/media/flasher-homepage.a6464b1c4bc646c483a7.png",
-    "static/media/nav-header.png": "/static/media/nav-header.1cd469553c4a6b50bcee.png",
-    "static/media/day-planner-live.PNG": "/static/media/day-planner-live.895997382b3a70ae1cc2.PNG",
-    "static/media/drinkfinder-home.PNG": "/static/media/drinkfinder-home.5c7bd25902bf09095627.PNG",
-    "static/media/weather-dashboard.PNG": "/static/media/weather-dashboard.addcea90762e12cf4d35.PNG",
-    "static/media/jace-home.PNG": "/static/media/jace-home.61557cca8a96aae816cd.PNG",
-    "index.html": "/index.html",
-    "main.50999dce.css.map": "/static/css/main.50999dce.css.map",
-    "main.e91af937.js.map": "/static/js/main.e91af937.js.map",
-    "787.2887e336.chunk.js.map": "/static/js/787.2887e336.chunk.js.map"
+    "main.css": "/bromaritos-reactive-profile/static/css/main.50999dce.css",
+    "main.js": "/bromaritos-reactive-profile/static/js/main.772e5276.js",
+    "static/js/787.2887e336.chunk.js": "/bromaritos-reactive-profile/static/js/787.2887e336.chunk.js",
+    "static/media/headshot.jpg": "/bromaritos-reactive-profile/static/media/headshot.7096b9ea156292ac589e.jpg",
+    "static/media/Me-as-Spoderman-cloud.png": "/bromaritos-reactive-profile/static/media/Me-as-Spoderman-cloud.d0cc41b7092cc63834cf.png",
+    "static/media/spider-logo.png": "/bromaritos-reactive-profile/static/media/spider-logo.d5d52713c123fd34598f.png",
+    "static/media/uga-campus.jpg": "/bromaritos-reactive-profile/static/media/uga-campus.b1210fb155c92c930cdb.jpg",
+    "static/media/flasher-homepage.png": "/bromaritos-reactive-profile/static/media/flasher-homepage.a6464b1c4bc646c483a7.png",
+    "static/media/nav-header.png": "/bromaritos-reactive-profile/static/media/nav-header.1cd469553c4a6b50bcee.png",
+    "static/media/day-planner-live.PNG": "/bromaritos-reactive-profile/static/media/day-planner-live.895997382b3a70ae1cc2.PNG",
+    "static/media/drinkfinder-home.PNG": "/bromaritos-reactive-profile/static/media/drinkfinder-home.5c7bd25902bf09095627.PNG",
+    "static/media/weather-dashboard.PNG": "/bromaritos-reactive-profile/static/media/weather-dashboard.addcea90762e12cf4d35.PNG",
+    "static/media/jace-home.PNG": "/bromaritos-reactive-profile/static/media/jace-home.61557cca8a96aae816cd.PNG",
+    "index.html": "/bromaritos-reactive-profile/index.html",
+    "main.50999dce.css.map": "/bromaritos-reactive-profile/static/css/main.50999dce.css.map",
+    "main.772e5276.js.map": "/bromaritos-reactive-profile/static/js/main.772e5276.js.map",
+    "787.2887e336.chunk.js.map": "/bromaritos-reactive-profile/static/js/787.2887e336.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.50999dce.css",
-    "static/js/main.e91af937.js"
+    "static/js/main.772e5276.js"
   ]
 }
