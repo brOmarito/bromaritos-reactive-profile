@@ -1,8 +1,8 @@
 .port-body {
     background-color: #282c34;
     color: white;
-    min-height: 83.15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-grow: 1;
 }
