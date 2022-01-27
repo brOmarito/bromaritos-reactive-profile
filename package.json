@@ -1,7 +1,7 @@
 {
   "name": "bromaritos-reactive-profile",
   "version": "0.1.0",
-  "homepage": "https://github.com/brOmarito/bromaritos-reactive-profile",
+  "homepage": "https://bromarito.github.io/bromaritos-reactive-profile",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.4.3",
