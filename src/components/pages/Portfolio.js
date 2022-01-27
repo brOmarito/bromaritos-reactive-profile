@@ -14,6 +14,8 @@ export default function Portfolio ({ currPage, setCurrPage }) {
     const mainProjClass = 'main-project'
     const horizontalClass = 'horizontal-projects';
 
+    // Project information
+    // TODO: Move out into a separate file
     const mainProj = {
                         title: 'Drink Finder',
                         image: drinkFinder,

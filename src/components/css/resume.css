@@ -7,6 +7,17 @@ iframe {
     height: 100%;
 }
 
+.pdf-link {
+    text-transform: uppercase;
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+}
+
+.pdf-link:hover,
+.pdf-link:focus {
+    color: #fff;
+}
+
 @media screen and (max-width: 576px) {
     iframe {
         height: 71%;

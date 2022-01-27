@@ -9,7 +9,7 @@ export default function ProjectSection ({classname, projects}) {
                     <div className='proj-title'>{project.title}</div>
                     <div className='proj-container'>
                         <a className='img-link' href={project.liveUrl}>
-                            <img src={project.image} />
+                            <img src={project.image} alt={`${project.title}-image`} />
                         </a>
                     </div>
                     <div className='proj-links'>

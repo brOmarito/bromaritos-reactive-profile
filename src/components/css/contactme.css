@@ -1,0 +1,16 @@
+.form-container {
+    text-align: left;
+    width: 60%;
+}
+
+.contact-me-content {
+    padding-top: 1rem;
+}
+
+.text-error {
+    color: lightcoral !important;
+}
+
+.hidden {
+    display: none;
+}
