@@ -24,7 +24,7 @@ export default function Footer() {
                 </a>
             </div>
             <div className="text-center p-2">
-                © 2021 Copyright: brOmarito Works(?)
+                © 2021 Copyright: brOmarito wOrks(?)
             </div>
         </footer>
     )

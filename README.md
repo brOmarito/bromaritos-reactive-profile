@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# brOmarito's REACTive Portfolio
 
+The repo name is pretty telling in this case! It's my portfolio using React. It's got a small About Me section as the homepage, 
+a Portfolio page to display some of the projects I've worked on, a Resume section where you can see a preview of my resume as 
+well as the ability to download a PDF copy for yourself, and last but not least a Contact Me section. The Contact Me section does 
+not currently send the message to me but this is a future improvement. As of now, it demonstrates the ability to validate fields.\
+\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Improvements
+
+There are definitely some areas I already have some improvements in mind, including:
+* Adding navigation to the About Me section with different areas for information like Music, Video Games, Dog(s)!
+* I want to add some functionality to display a load animation while the app renders the images in the various sections, especially 
+the Resume section as the iFrame can take a second to load
+* Add a text version of my Resume on the resume section in case you want to toggle the iFrame on and off
+* Add send functionality to the Contact Me section to send the message to my email
+* Add more pages and sections to the Navbar such as blog posts pertaining to Music, Video Games, etc.
+* Once the new pages are implemented, add log in functionality to leave reactions
+
+## Deployment
+
+Check out my deployed portfolio here: https://bromarito.github.io/bromaritos-reactive-profile
+
+## Screenshots
+
+### About Me
+![About Me](/src/images/aboutme-screen.PNG)
+
+### Portfolio
+![Portfolio](/src/images/portfolio-screen.PNG)
+
+### Resume
+![Resume](/src/images/resume-screen.PNG)
 
 ## Available Scripts
 
@@ -44,27 +75,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
